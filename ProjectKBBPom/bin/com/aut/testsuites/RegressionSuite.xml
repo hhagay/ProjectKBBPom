@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RegressionSuite" >
+	<test name="LoginTest">
+		<classes>
+			<class name="com.aut.tests.LoginTests" />
+		</classes>
+	</test>
+	<test name="CarsSearch" >
+		<classes>
+			<class name="com.aut.tests.CarsForSalePageTests" />
+		</classes>
+	</test>
+</suite>
